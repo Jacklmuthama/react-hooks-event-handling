@@ -2,7 +2,7 @@ import React from "react";
 
 function MultiButton() {
   function handleClick(number) {
-    console.log(`Button ${number} was clicked`);
+    alert(`Button ${number.target.textContent} was clicked`);
   }
 
   return (
@@ -15,3 +15,4 @@ function MultiButton() {
 }
 
 export default MultiButton;
+
